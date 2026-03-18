@@ -4,7 +4,7 @@ from jsonpath_ng.ext import parse
 
 url = "https://cde8bdc4bb9d45de9b1fff00c4118687.api.mockbin.io/"
 #json_path ="$[0].Item01.Data[0].Results[0].Contact.Address.PostalCode"
-## json_path = "$[0].Item01.Data[0].Results[0].Relevance"
+### json_path = "$[0].Item01.Data[0].Results[0].Relevance"
 json_path = "$[0].Item01.Data[0].Results[1].Relevance"
 json_path_array_list = "$[0].Item01.Data[0].Results"
 
